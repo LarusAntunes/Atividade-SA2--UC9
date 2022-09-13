@@ -11,10 +11,21 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100%;
+    height: 167px;
+    width: 1440px;
+    padding: 28px;
     
     background-color:#0B0E46 ;
  
+}
+
+.logo {
+    background-color: #ffffff;
+    border: #ffffff 100px;
+    width: 231px;
+    height: 124px;
+    display: flex;
+
 }
 
 
