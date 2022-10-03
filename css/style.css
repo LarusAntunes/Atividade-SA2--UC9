@@ -2,17 +2,47 @@ header {
     background-color:#0B0E46
 }
 
-.container {
-    max-width: 1200px;
+@media screen and (max-width:98px) {
+    
 }
 
-.cabecalho {
+@media screen and (min-width:1024px) and(max-width:1520px) {
+    
+}
 
+body {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.margem{
+    padding: 10px;
+    
+}
+
+
+.container {
+   max-width: 50vw;
+   color: rgb(0, 0, 0);
+}
+
+/* .centro{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+} */
+
+.cabecalho {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
     height: 167px;
-    width: 1440px;
+    width: auto;
     padding: 28px;
     
     background-color:#0B0E46 ;
@@ -20,11 +50,20 @@ header {
 }
 
 .logo {
-    background-color: #ffffff;
-    border: #ffffff 100px;
+    border:solid #ffffff 5px;
     width: 231px;
     height: 124px;
     display: flex;
+    flex-direction: row;
+    object-fit: cover;
+    
+}
+
+.pesquisa {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items:center;
 
 }
 
@@ -33,26 +72,60 @@ body {
     background-color: rgba(175, 178, 182, 0.829);
 }
 
-.carrocel {
-
-    width:auto; height: 145px;
-    display: flex;
-    align-items: center;
-    background-color:#000000   
-}
-
-.menu {
+.menu{
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 28px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.carrocel {
+
+    padding: 28px;
+    height: 145px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#292929;
+}
+
+.carrocel_teste{
+    padding: 28px;
+    height: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.imagem-jogos {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-direction: row;
+    object-fit: cover;
+    padding: 5px;
+    height: 123px;
+    width: 145px;
+    max-width: 50vw;
+
+    
 }
 
 .destaques {
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-content: center;
     flex-direction: row;
+    padding: 28px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
+
 
 .divisoria{
     display: flex;
@@ -64,8 +137,34 @@ body {
 
 }
 
-.menu_info {
+
+.contatos {
+    /* height: 200px; */
+    
     display: flex;
-    width: 10%;
-    align-items: center
+    flex-direction: row;
+    justify-content:space-between;
+    align-content: center;
+    padding: 28px; 
+    margin-left: 100px;
+    margin-right: 100px;
+    object-fit: cover;
+}
+
+.redes_sociais{
+
+   
+   display: flex;
+   flex-direction: row;
+   padding: 28px;
+   margin-left: 100px;
+   margin-right: 100px;
+   
+   justify-content: space-between;
+   align-items: center;
+}
+
+.cores_letras{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
 }

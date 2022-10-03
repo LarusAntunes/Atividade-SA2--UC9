@@ -26,7 +26,7 @@
                 
                 <div id="menu" class="menu"> 
 
-                    <a href="index_site_game_mania.html"><input type="button" value="INÍCIO"></a>
+                    <a href="index_site_game_mania.html"><button type="button" class="btn btn-secondary">LOGIN</button></a>
 
                         <section id="botao de pesquisa" class="pesquisa">        
                             <nav class="navbar navbar-dark bg-dark">
@@ -38,14 +38,13 @@
                                 </div>
                             </nav>
                             <img id="imagem-lupa" src="img/Lupa.png"
-                                alt="Lupa" width="10%">
+                                alt="Lupa" width="5%">
                         </section>
                         
                     <a href="carrinho.html"> <img id="imagem-carrinho" src="img/Carrinho.png"
                             alt="Carrinho" width="56.98px" height="48.64px"> </a>
                             
-                    <a href="loginusuario.html"><input type="button" id="botao-login"
-                                value="LOGIN" style="text-align:right;"></a>
+                    <a href="loginusuario.html"><button type="button" class="btn btn-secondary">LOGIN</button>
                 </div>             
             </div>
                 
@@ -55,26 +54,31 @@
 
         <main> <!--Faixa preta com imagens dos jogos e botoes das categorias-->
             <div>
-                <section style="background-color:black ;" class="carrocel">
-                    
-                        <a href="#" target="_blank"> <img class="imagem-jogos" src="img/the wicher.png" alt="the-witcher" width=""></a>
+                <section style="background-color:rgba(0, 0, 0, 0.89) ;" class="carrocel_teste">
+                    <a href="#" target="_blank"> <img class="imagem-jogos" src="img/the wicher.png" alt="the-witcher" width=""></a>
                         <a href="#" target="_blank"> <img class="imagem-jogos" src="img/ark.jpg" alt="ark" width=""></a>
                         <a href="#" target="_blank"> <img class="imagem-jogos" src="img/Bioshock.jfif" alt="Bioshock" width=""></a>
                         <a href="#" target="_blank"> <img class="imagem-jogos" src="img/Mario kart.jfif" alt="mario-kart" width=""></a>
                         <a href="#" target="_blank"> <img class="imagem-jogos" src="img/cod.jfif" alt="cod" width=""></a>
                         <a href="#" target="_blank"> <img class="imagem-jogos" src="img/skyrim.jfif" alt="skyrim" width=""></a>
+                        <a href="#" target="_blank"> <img class="imagem-jogos" src="img/League od legends.jfif" alt="skyrim" width=""></a>
+                        <a href="#" target="_blank"> <img class="imagem-jogos" src="img/fortnie.jfif" alt="skyrim" width=""></a>
+                        <a href="#" target="_blank"> <img class="imagem-jogos" src="img/cs go.jfif" alt="skyrim" width=""></a>
+                    
+                    
                     
                 </section>
       
-                <section class="menu container" id="menu-botoes">                                               
-                    <a href="/html/" target="_blank"><input type="button" value="Acessórios"></a>
-                    <a href="/html/" target="_blank"><input type="button" value="Consoles"></a>
-                    <a href="/html/" target="_blank"><input type="button" value="Gadgets"></a>
-                    <a href="/html/" target="_blank"><input type="button" value="Smartphones"></a>
-                    <a href="/html/" target="_blank"><input type="button" value="Midias"></a>
-                    <a href="/html/" target="_blank"><input type="button" value="Gamer"></a>
-                    <a href="/html/" target="_blank"><input type="button" value="Informatica"></a>
-                    <a href="/html/" target="_blank"><input type="button" value="Notebooks" ></a>                               
+                <section class="menu container" id="menu-botoes">
+                                                               
+                    <a href="/html/" target="_blank"><button type="button" class="btn btn-outline-primary">Acessórios</button></a>
+                    <a href="/html/" target="_blank"><button type="button" class="btn btn-outline-primary">Consoles</button></a>
+                    <a href="/html/" target="_blank"><button type="button" class="btn btn-outline-primary">Gadgets</button></a>
+                    <a href="/html/" target="_blank"><button type="button" class="btn btn-outline-primary">Smartphones</button></a>
+                    <a href="/html/" target="_blank"><button type="button" class="btn btn-outline-primary">Mídias</button></a>
+                    <a href="/html/" target="_blank"><button type="button" class="btn btn-outline-primary">Gamer</button></a>
+                    <a href="/html/" target="_blank"><button type="button" class="btn btn-outline-primary">Informática</button></a>
+                    <a href="/html/" target="_blank"><button type="button" class="btn btn-outline-primary">Notebooks</button></a>                               
                 </section>
             </div>
         
@@ -94,6 +98,7 @@
                         <img src="https://images.pexels.com/photos/7848992/pexels-photo-7848992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         alt="Descontos" width="30%"> 
                     </figure> 
+    
                 <!-- </nav> -->
             </section>
 
@@ -107,16 +112,38 @@
             </section>
 
             <section> <!--Fundo branco com 3 retângulos, e os textos: Contato; Quem somos; Como chegar-->
-                <nav>
+                <nav class="contatos">
+                    <div class="card text-center card border-primary mb-3" style="width: 18rem;">
+                        <img src="img/Fundo Contato.png" class="card-img-top" alt="contatos">
+                        <div class="card-body">
+                          <h5 class="card-title">CONTATOS</h5>
+                          <p class="card-text">Telefone: (99)9999-9999</p>
+                          <p class="card-text">gamemania@email.com</p>
+                          <a href="#" class="btn btn-primary">Fale conosco</a>
+                        </div>
+                    </div>
+                    <div class="card text-center card border-primary mb-3" style="width: 18rem;">
+                        <img src="img/Fundo Quem somos.jpeg" class="card-img-top" alt="Quem somos">
+                        <div class="card-body">
+                          <h5 class="card-title">QUEM SOMOS</h5>
+                          <p class="card-text"> Nossa missão: xxxxxxxx</p>
+                          <p class="card-text"> Visão e valores: xxxxxxx</p>
+                          
+                          <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                    <div class="card text-center card border-primary mb-3" style="width: 18rem;">
+                        <img src="img/Fundo Como chegar.png" class="card-img-top" alt="como chegar">
+                        <div class="card-body">
+                          <h5 class="card-title">COMO CHEGAR</h5>
+                          <p class="card-text">Mapa /Localização</p>
+                          <br>
+                        
+                         
+                          <a href="#" class="btn btn-primary">Venhe nos conhecer</a>
+                        </div>
+                    </div>
 
-                    <figure class="contatos container">
-                        <img src="img/Fundo Contato.png"
-                        alt="Contato" width="20%">
-                        <img src="img/Fundo Quem somos.jpeg"
-                        alt="Quem somos" width="20%" >
-                        <img src="img/Fundo Como chegar.png"
-                        alt="Como chegar" width="20%" >
-                    </figure>
                 </nav>  
             </section>
         </main>
